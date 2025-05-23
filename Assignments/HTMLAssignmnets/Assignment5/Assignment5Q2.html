@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 Question 2</title>
+</head>
+<body>
+
+    <h1>FirstBit Solutions</h1>
+    <img src="https://i.postimg.cc/9FLzZYBS/logo.jpg" alt="image not found">
+    <br>
+    <a href="">FirstBitSolutions.com</a>
+    <br>
+    <i>Your Future Begins Here!</i>
+    <hr>
+
+    <h1><u>Student Registration form</u></h1>
+
+    <form action="/dummy" method="get">
+        <table border = "1" cellpadding = "5">
+            <tr>
+                <label for="fullname"><b>Full Name:</b></label><br>
+                <input type="text" name="fullname" id="fullname" placeholder="Enter your full name"><br><br>
+            </tr>
+            <tr>
+                <label for="email"><b>Email ID:</b></label><br>
+                <input type="email" name="email" id="email" placeholder="example@email.com"><br><br>
+            </tr>
+            <tr>
+                <label for="phno"><b>Phone Number:</b></label><br>
+                <input type="number" name="phonenum" id="phno" placeholder="e.g. 9876543210"><br><br>
+            </tr>
+            <tr>
+                <label for="dob"><b>Birth Date:</b></label><br>
+                <input type="date" name="dateofbirth" id="dob"><br><br>
+            </tr>
+            <tr>
+                <label for="gender"><b>Select Gender: </b></label><br>
+                <input type="radio" name="gender" id="gender">Male <br>
+                <input type="radio" name="gender" id="gender">Female <br>
+                <input type="radio" name="gender" id="gender">Others <br><br>
+            </tr>
+            <tr>
+                <label for="course"><b>Courses Interested in: </b></label><br>
+                <input type="checkbox" name="course" id="course" value="JFS">Java Full Stack <br>
+                <input type="checkbox" name="course" id="course" value="PFS">Python Full Stack <br>
+                <input type="checkbox" name="course" id="course" value="React">React JS <br>
+                <input type="checkbox" name="course" id="course" value="DS">Data Science <br><br>
+            </tr>
+            <tr>
+                <label for="timing"><b>Prefered batch timing: </b></label><br>
+                <select name="time" id="timing">
+                    <option value="">--select--</option>
+                    <option value="08:00">08:00 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="12:00">12:00 PM</option>
+                    <option value="02:00">02:00 PM</option>
+                    <option value="04:00">04:00 PM</option>
+                    <option value="06:00">06:00 PM</option>
+                </select><br><br>
+            </tr>
+            <tr>
+                <label for="about"><b>Write About Yourself:</b></label><br>
+                <textarea name="about" id="about" placeholder="Tell us about yourself..." rows="3" cols="100"></textarea> 
+            <br><br>
+            </tr>
+            <tr>
+                <label for="rating"><b>Rate your current skills level(1 to 10):</b></label><br>
+                <input type="number" name="rating" id="rating" min="1" max="10"> <br><br>
+            </tr>
+            <tr>
+                <input type="submit" value="Submit form"><input type="reset" value="reset form">
+            </tr>
+    </table>
+    <hr>
+    <p>
+        <b>Address:</b> Aditya Centeegra, office number 7,3rd Floor, Near IDBI Bank, Dnyaneshwar Paduka Chowk, Pune, Maharashtra, 411005
+    </p>
+
+    </form>
+    
+</body>
+</html>
